@@ -1,0 +1,38 @@
+JavaScript with Namaste 🙏 JavaScript:
+
+* Everything in JavaScript happens inside an execution context.
+
+* Execution context has two component phase. 
+    1) Memory Allocation Phase 
+    2) Code Execution Phase.
+
+* JavaScript engine runs through the code twice, in two phases types, Creation Phase and Execution Phase.
+
+* Call stack maintains the order of execution of execution contexts.  JavaScript call stack also known from these names: 
+    1) Execution Context Stack
+    2) Program Stack
+    3) Control Stack
+    4) Runtime Stack
+    5) Machine Stack
+
+* Call stack is stack type data structure it holds execution of program.
+
+* Two Golden Rules of hoisting:
+    1) Variable declarations are scanned and are made undefined
+    2) Function declarations are scanned and are made available
+
+* The JS engine first hoists variables (to undefined). then it hoists function declarations.
+    1) Variable assignment takes precedence over function declaration
+    2) Function declarations take precedence over variable declarations
+
+* Function along with its lexical scope called closures.
+
+* Some function jargon:
+    1) Function statement
+    2) Function declaration
+    3) Function expression 
+    4) Anonymous Function
+    5) Named Function expression 
+    6) Difference b/w parameters and arguments
+    7) First class functions or First class citizens
+    8) Arrow function
